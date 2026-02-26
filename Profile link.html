@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: palegoldenrod;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #1f1f1f;
+            padding: 35px 30px;
+            width: 320px;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .card img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin-bottom: 18px;
+            object-fit: cover;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .location {
+            color: #c4f82a;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .bio {
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 22px;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            background-color: #333333;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background-color: burlywood;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Profile Image -->
+        <img src="c:\Users\LENOVO\OneDrive\Pictures\Saved Pictures\1000066209.jpg" alt="Profile">
+
+        <!-- Name -->
+        <div class="name">THARUN PASUPULETI</div>
+
+        <!-- Location -->
+        <div class="location">Guntur, Andhra Pradesh</div>
+
+        <!-- Bio -->
+        <div class="bio">"Software Engineer"</div>
+
+        <!-- Social Links -->
+        <div class="links">
+            <a href="#">GitHub</a>
+            <a href="#">Naukri</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
