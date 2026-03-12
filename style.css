@@ -1,0 +1,67 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body {
+     background-color: palegoldenrod;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .card {
+     background-color: #1f1f1f;
+     padding: 35px 30px;
+     width: 320px;
+     border-radius: 12px;
+     text-align: center;
+     color: white;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+ }
+
+ .card img {
+     width: 90px;
+     height: 90px;
+     border-radius: 50%;
+     margin-bottom: 18px;
+     object-fit: cover;
+ }
+
+ .name {
+     font-size: 22px;
+     font-weight: bold;
+     margin-bottom: 6px;
+ }
+
+ .location {
+     color: #c4f82a;
+     font-size: 14px;
+     margin-bottom: 20px;
+ }
+
+ .bio {
+     font-size: 14px;
+     color: #ccc;
+     margin-bottom: 22px;
+ }
+
+ .links a {
+     display: block;
+     text-decoration: none;
+     background-color: #333333;
+     color: white;
+     padding: 12px;
+     margin: 10px 0;
+     border-radius: 8px;
+     font-weight: bold;
+     transition: 0.3s;
+ }
+
+ .links a:hover {
+     background-color: burlywood;
+     color: black;
+ }
